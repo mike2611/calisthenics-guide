@@ -1,0 +1,36 @@
+#top-header {
+  background-color: #272a31;
+}
+
+#top-header ul {
+  margin-left: 70%;
+}
+
+#logo {
+  width: 120px;
+}
+
+#bottom-header {
+  border: 1px solid;
+  box-shadow: 5px 2px #88888836;
+  background-color: white;
+  height: 75px;
+}
+
+#btn-header {
+  border: #ec5242 solid 5px;
+  color: #ec5242;
+}
+
+#item-about {
+  color: #ec5242;
+}
+
+#top-logo {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#welcome-section p {
+  background-image: ;
+}
