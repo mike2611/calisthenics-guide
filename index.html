@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/4fd73de0d8.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
@@ -36,7 +39,7 @@
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link text-white">
-                            Korean
+                            Spanish
                         </a>
                     </li>
                 </ul>
@@ -82,14 +85,26 @@
             </div>
         </nav>
     </header>
-    <section id="welcome-section">
-        <div>
-            <h1>"Hello! Calisthenics world"</h1>
+    <section  class=" d-flex align-items-center flex-column pt-5" id="welcome-section">
+        <div class="w-50">
+            <h1 class="lato-font mt-5" id="title">"Hello! Calisthenics world"</h1>
         </div>
-        <div>
+        <div class="w-50">
+            <p class="oswald-font" id="welcome-info">
+                Profesional Calisthenics Exposition CDMX 2021
+            </p>
+        </div>
+        <div class="w-50">
+            <p id="definition-info">
+            The biggest names in calisthenics will be at the expo, promoting a healthy lifestyle and showing their skills. Also,
+            we're hosting a 16 man single elimination tournament that has the goal
+            of finding the top new athletes around the world. in CDMX
+            </p>
+        </div>
+        <div class="w-50" id="date-info">
             <p>
-                The place where you can find all the information related
-                to calisthenics.
+                <span class="oswald-font">2021.11.11(THU) &nbsp; ~ &nbsp; 12(FRI)</span><br>
+                <span class="lato-font"> @ EXPO SANTA FE MÉXICO </span> 
             </p>
         </div>
     </section>

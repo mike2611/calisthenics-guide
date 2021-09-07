@@ -18,7 +18,7 @@
 }
 
 #btn-header {
-  border: #ec5242 solid 5px;
+  border: 5px solid #ec5242 ;
   color: #ec5242;
 }
 
@@ -31,6 +31,43 @@
   margin-right: 15%;
 }
 
-#welcome-section p {
-  background-image: ;
+#welcome-section {
+  background:  #f8f8f8 url('../images/background.png')  right 80% no-repeat;
+  background-size: 200px;
+  height: 120vh;
+}
+
+#welcome-section h1 {
+  color: #ec5242;
+}
+
+#welcome-info {
+  background-image: url(../images/texture-text.jpg);
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 90px;
+}
+
+#definition-info {
+  border: 5px solid white;
+  background-color: #f8f8f8;
+}
+
+#date-info {
+  color: #595959;
+}
+
+#date-info span {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.lato-font {
+  font-family: 'Lato', sans-serif;
+}
+
+.oswald-font {
+  font-family: 'Oswald', sans-serif;
 }
