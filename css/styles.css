@@ -74,12 +74,53 @@ body {
 #main-program {
   background:  #272a31 url('../images/background2.png');
   background-size: 15px;
+  flex-direction: column;
 }
 
 #half-border {
   color: #ec5242;
-  height: 2px;
+  height: 5px;
   width: 60px;
+}
+
+.card {
+  background-color: #272a31de;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.program-cards {
+  align-items: center;
+  justify-content: space-around;
+  padding: 0;
+  margin: 5px 0;
+}
+
+.program-cards i {
+  color: #ec5242;
+  font-size: 25px;
+}
+
+.program-cards h3 {
+  font-size: 18px;
+}
+
+.program-cards p {
+  color: white;
+  font-size: 14px;
+  width: 200px;
+  height: 70px;
+  margin: 0;
+}
+
+#join-btn button {
+  border: none;
+  background-color: #fe4e37;
+  color: white;
+  font-size: 12px;
+  padding: 15px 40px;
 }
 
 .lato-font {
