@@ -1,3 +1,12 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
 #top-header {
   background-color: #272a31;
 }
@@ -11,10 +20,10 @@
 }
 
 #bottom-header {
-  border: 1px solid;
-  box-shadow: 5px 2px #88888836;
-  background-color: white;
-  height: 75px;
+  /* border: 1px solid;
+  box-shadow: 5px 2px #88888836; 
+  height: 75px;*/
+  background-color: #f8f8f8;
 }
 
 #btn-header {
@@ -26,19 +35,16 @@
   color: #ec5242;
 }
 
-#top-logo {
-  margin-left: 15%;
-  margin-right: 15%;
-}
-
 #welcome-section {
-  background:  #f8f8f8 url('../images/background.png')  right 80% no-repeat;
+  background:  #f8f8f8 url('../images/background.png')  right 50% no-repeat;
   background-size: 200px;
-  height: 120vh;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 #welcome-section h1 {
   color: #ec5242;
+  font-size: 1.5rem;
 }
 
 #welcome-info {
@@ -47,7 +53,7 @@
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 90px;
+  font-size: 2.4rem;
 }
 
 #definition-info {
@@ -57,11 +63,23 @@
 
 #date-info {
   color: #595959;
+  font-size: .9rem;
 }
 
 #date-info span {
-  font-size: 40px;
+  font-size: 1.8rem;
   font-weight: bolder;
+}
+
+#main-program {
+  background:  #272a31 url('../images/background2.png');
+  background-size: 15px;
+}
+
+#half-border {
+  color: #ec5242;
+  height: 2px;
+  width: 60px;
 }
 
 .lato-font {
@@ -70,4 +88,8 @@
 
 .oswald-font {
   font-family: 'Oswald', sans-serif;
+}
+
+@media screen and (min-width: 768px) { 
+
 }
