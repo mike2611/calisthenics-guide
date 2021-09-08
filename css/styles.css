@@ -175,11 +175,17 @@ body {
   text-align: center;
 }
 
-
-#logo2 {
-  width: 200px;
+#logo-container {
+  width: 88%;
 }
 
+#logo2 {
+  width: 220px;
+}
+
+#logo-info {
+ font-size: 14px;
+}
 
 .half-border {
   background-color: #ec5242;
