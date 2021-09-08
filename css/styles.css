@@ -215,6 +215,15 @@ body {
   font-size: 14px;
 }
 
+#partners-section {
+  background-color: #414246;
+}
+
+#partners-section > * {
+  color: #8d8d8d;
+  font-size: 35px;
+}
+
 .half-border {
   background-color: #ec5242;
   border: 2px solid red;
