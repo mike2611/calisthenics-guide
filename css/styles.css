@@ -224,6 +224,14 @@ body {
   font-size: 35px;
 }
 
+#footer-info {
+  font-size: 18px;
+}
+
+#footer-info span {
+  font-size: 12px;
+}
+
 .half-border {
   background-color: #ec5242;
   border: 2px solid red;
