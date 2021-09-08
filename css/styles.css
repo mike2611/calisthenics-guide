@@ -273,6 +273,23 @@ body {
     max-width: 550px;
   }
 
+  .program-cards {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height:200px;
+  }
+
+  .program-cards p {
+    width: auto;
+    max-width: 200px;
+  }
+
+  #join-btn p {
+    color: white;
+    text-decoration: underline;
+  }
+
 }
 
 @media screen and (min-width: 850px){
