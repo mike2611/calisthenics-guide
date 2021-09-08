@@ -148,6 +148,33 @@ body {
   font-size: 12px;
 }
 
+#about-section {
+  background:  #f8f8f8 url('../images/background.png')  right 50% no-repeat;
+  background-size: 200px;
+}
+
+#about-section h1 {
+  color: #ec5242;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+#welcome-about {
+  color: #ec5242;
+  font-size: 2.4rem;
+}
+
+#about-info {
+  background-color: white;
+  width: 90%;
+  text-align: center;
+}
+
+#contact-info {
+  width: 80%;
+  text-align: center;
+}
+
 .half-border {
   background-color: #ec5242;
   border: 2px solid red;
