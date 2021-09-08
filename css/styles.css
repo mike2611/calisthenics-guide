@@ -15,20 +15,14 @@ body {
   margin-left: 70%;
 }
 
-#logo {
-  width: 120px;
-}
-
 #bottom-header {
-  /* border: 1px solid;
-  box-shadow: 5px 2px #88888836; 
-  height: 75px;*/
   background-color: #f8f8f8;
 }
 
 #btn-header {
-  border: 5px solid #ec5242 ;
+  border: 3px solid #ec5242 ;
   color: #ec5242;
+  padding: 4px 8px;
 }
 
 #item-about {
@@ -247,5 +241,23 @@ body {
 }
 
 @media screen and (min-width: 768px) { 
+  html {
+    font-size: 120%;
+  }
+
+  #bottom-header {
+    border: 1px solid;
+    box-shadow: 5px 2px #88888836; 
+    height: 70px;
+    background-color: white;
+  }
+
+  #logo {
+    width: 100px;
+  }
+
+  #btn-header {
+    margin-right: 90px;
+  }
 
 }
