@@ -260,10 +260,17 @@ body {
 
   #welcome-info {
     width: 65%;
+    max-width: 550px;
+  }
+
+  #welcome-info h2 {
+    font-size: 3.1rem;
   }
 
   #definition-info {
     font-size: .9rem;
+    width: 75%;
+    max-width: 550px;
   }
 
 }
