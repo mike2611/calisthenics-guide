@@ -187,6 +187,35 @@ body {
  font-size: 14px;
 }
 
+#previous-info {
+  font-size: 14px;
+}
+
+#expo-imgs img {
+  filter: invert(38%) sepia(99%) saturate(626%) hue-rotate(324deg) 
+  brightness(94%) contrast(97%);
+  width: 280px;
+  height: 140px;
+}
+
+.img-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+.center-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center-text span {
+  font-size: 14px;
+}
+
 .half-border {
   background-color: #ec5242;
   border: 2px solid red;
