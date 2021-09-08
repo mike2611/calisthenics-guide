@@ -7,14 +7,6 @@ body {
   margin: 0;
 }
 
-#top-header {
-  background-color: #272a31;
-}
-
-#top-header ul {
-  margin-left: 70%;
-}
-
 #bottom-header {
   background-color: #f8f8f8;
 }
@@ -245,6 +237,15 @@ body {
     font-size: 120%;
   }
 
+  #top-header {
+    background-color: #272a31;
+  }
+
+  #top-header ul {
+    margin-right: 130px;
+    margin-left: 390px;
+  }
+
   #bottom-header {
     border: 1px solid;
     box-shadow: 5px 2px #88888836; 
@@ -257,7 +258,13 @@ body {
   }
 
   #btn-header {
-    margin-right: 90px;
+    margin-right: 120px;
   }
 
 }
+
+@media screen and (min-width: 800px){
+  #top-header ul {
+    margin-left: auto;
+  }
+} 
