@@ -233,11 +233,12 @@ body {
 }
 
 #footer-info {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 #footer-info span {
-  font-size: 12px;
+  font-size: 20px;
+  font-weight: 900;
 }
 
 #footer-about {
