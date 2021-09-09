@@ -298,6 +298,10 @@ body {
     text-decoration: underline;
   }
 
+  .athlete-img {
+    width: 110px;
+    height: 110px;
+  }
 }
 
 @media screen and (min-width: 850px){
