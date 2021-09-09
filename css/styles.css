@@ -196,6 +196,10 @@ body {
   height: 140px;
 }
 
+#expo-imgs img:hover {
+  filter: none;
+}
+
 .img-container {
   position: relative;
   text-align: center;
@@ -208,6 +212,11 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  transition: opacity 1s ease-in-out;
+}
+
+.img-container:hover > .center-text{
+  opacity: 0%;
 }
 
 .partners-section {
