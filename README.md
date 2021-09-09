@@ -11,6 +11,9 @@
 
 ## Original Design 
 https://www.behance.net/gallery/29845175/CC-Global-Summit-2015
+
+## Explanation Video
+https://www.loom.com/share/03793c73a1f044509bfff4a4d82543cf
  
 ## Built With
 
