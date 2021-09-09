@@ -302,6 +302,32 @@ body {
     width: 110px;
     height: 110px;
   }
+
+  #about-section {
+    justify-content: space-around ;
+    background:  #f8f8f8 url('../images/backgroundFull.png')  right 80% no-repeat;
+    background-size: 900px;
+    height: 100vh;
+  }
+
+  #welcome-about {
+    width: 70%;
+    max-width: 750px;
+  }
+
+  #welcome-about h2{
+    font-size: 3rem;
+    font-weight: 900;
+  }
+
+  #about-info {
+    font-size: 1.2rem;
+    background-color: white;
+    width: 70%;
+    max-width: 650px;
+    text-align: center;
+    padding: 20px;
+  }
 }
 
 @media screen and (min-width: 850px){
