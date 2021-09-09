@@ -164,6 +164,11 @@ body {
 
 #logo-container {
   width: 88%;
+  max-width: 350px;
+}
+
+#logo2 {
+  padding: 15px;
 }
 
 #logo2 {
@@ -171,7 +176,8 @@ body {
 }
 
 #logo-info {
- font-size: 14px;
+  max-width: 300px;
+  font-size: 14px;
 }
 
 #previous-info {
@@ -246,12 +252,12 @@ body {
   #bottom-header {
     border: 1px solid;
     box-shadow: 5px 2px #88888836; 
-    height: 70px;
+    height: 75px;
     background-color: white;
   }
 
   #logo {
-    width: 100px;
+    width: 120px;
   }
 
   #welcome-section {
