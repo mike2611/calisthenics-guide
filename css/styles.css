@@ -227,6 +227,16 @@ body {
   font-size: 12px;
 }
 
+#footer-home {
+  background-color: #2e2e2e;
+  color: #edefee;
+}
+
+#footer-about {
+  background-color: #edefee;
+  color: #2e2e2e;
+}
+
 .half-border {
   background-color: #ec5242;
   border: 2px solid red;
@@ -346,7 +356,12 @@ body {
     margin-right: 10px;
   }
 
-  footer {
+  #footer-home {
+    background-color: #edefee;
+    color: #2e2e2e;
+  }
+  
+  #footer-about {
     background-color: #2e2e2e;
     color: #edefee;
   }
