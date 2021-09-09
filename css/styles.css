@@ -192,6 +192,10 @@ body {
   flex-direction: column;
 }
 
+.img-container:hover > img {
+  filter: none !important;
+}
+
 #expo-imgs img {
   filter:
     invert(38%) sepia(99%) saturate(626%) hue-rotate(324deg)
@@ -215,12 +219,8 @@ body {
   transition: opacity 1s ease-in-out;
 }
 
-.img-container:hover > .center-text{
+.img-container:hover > .center-text {
   opacity: 0%;
-}
-
-.img-container:hover > img{
-  filter: none !important;
 }
 
 .partners-section {
@@ -378,7 +378,7 @@ body {
     background-color: #edefee;
     color: #2e2e2e;
   }
-  
+
   #footer-about {
     background-color: #2e2e2e;
     color: #edefee;
