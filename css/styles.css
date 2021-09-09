@@ -14,7 +14,7 @@ body {
 }
 
 #btn-header {
-  border: 3px solid #ec5242 ;
+  border: 3px solid #ec5242;
   color: #ec5242;
   padding: 4px 8px;
 }
@@ -24,7 +24,7 @@ body {
 }
 
 #welcome-section {
-  background:  #f8f8f8 url('../images/background.png')  right 50% no-repeat;
+  background: #f8f8f8 url('../images/background.png')  right 50% no-repeat;
   background-size: 250px;
 }
 
@@ -33,11 +33,11 @@ body {
   font-size: 1.5rem;
 }
 
-#welcome-info h2{
+#welcome-info h2 {
   background-image: url(../images/texture-text.jpg);
   background-repeat: repeat;
+  background-clip: text;  /* stylelint-disable-line */
   -webkit-background-clip: text;
-  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 2.4rem;
 }
@@ -50,7 +50,11 @@ body {
 
 #date-info {
   color: #595959;
-  font-size: .9rem;
+  font-size: 0.9rem;
+}
+
+.center-text span {
+  font-size: 14px;
 }
 
 #date-info span {
@@ -59,7 +63,7 @@ body {
 }
 
 #main-program {
-  background:  #272a31 url('../images/background2.png');
+  background: #272a31 url('../images/background2.png');
   background-size: 15px;
   flex-direction: column;
 }
@@ -105,7 +109,7 @@ body {
 }
 
 .featured-athlete {
-  background:  white url('../images/backgroundAthlete.jpg')  left top no-repeat;
+  background: white url('../images/backgroundAthlete.jpg')  left top no-repeat;
   background-size: 40px 45px;
 }
 
@@ -128,7 +132,6 @@ body {
   width: 20px;
   color: black;
   border: 1px solid black;
-
 }
 
 .info-athlete p {
@@ -136,7 +139,7 @@ body {
 }
 
 #about-section {
-  background:  #f8f8f8 url('../images/background.png')  right 50% no-repeat;
+  background: #f8f8f8 url('../images/background.png')  right 50% no-repeat;
   background-size: 200px;
 }
 
@@ -146,7 +149,7 @@ body {
   font-weight: 900;
 }
 
-#welcome-about h2{
+#welcome-about h2 {
   color: #ec5242;
   font-size: 2.4rem;
 }
@@ -169,9 +172,6 @@ body {
 
 #logo2 {
   padding: 15px;
-}
-
-#logo2 {
   max-width: 220px;
 }
 
@@ -189,8 +189,9 @@ body {
 }
 
 #expo-imgs img {
-  filter: invert(38%) sepia(99%) saturate(626%) hue-rotate(324deg) 
-  brightness(94%) contrast(97%);
+  filter:
+    invert(38%) sepia(99%) saturate(626%) hue-rotate(324deg)
+    brightness(94%) contrast(97%);
   width: 280px;
   height: 140px;
 }
@@ -207,10 +208,6 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.center-text span {
-  font-size: 14px;
 }
 
 .partners-section {
@@ -244,9 +241,9 @@ body {
   font-family: 'Oswald', sans-serif;
 }
 
-@media screen and (min-width: 768px) { 
+@media screen and (min-width: 768px) {
   html {
-    font-size: 120%
+    font-size: 120%;
   }
 
   #top-header {
@@ -255,7 +252,7 @@ body {
 
   #bottom-header {
     border: 1px solid;
-    box-shadow: 5px 2px #88888836; 
+    box-shadow: 5px 2px #88888836;
     height: 75px;
     background-color: white;
   }
@@ -266,7 +263,7 @@ body {
 
   #welcome-section {
     justify-content: center;
-    background:  #f8f8f8 url('../images/backgroundFull.png')  right 50% no-repeat;
+    background: #f8f8f8 url('../images/backgroundFull.png')  right 50% no-repeat;
     background-size: 1000px;
     min-height: 100vh;
   }
@@ -286,7 +283,7 @@ body {
   }
 
   #definition-info {
-    font-size: .9rem;
+    font-size: 0.9rem;
     width: 75%;
     max-width: 600px;
   }
@@ -295,7 +292,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height:200px;
+    min-height: 200px;
   }
 
   .program-cards p {
@@ -314,8 +311,8 @@ body {
   }
 
   #about-section {
-    justify-content: space-around ;
-    background:  #f8f8f8 url('../images/backgroundFull.png')  right 80% no-repeat;
+    justify-content: space-around;
+    background: #f8f8f8 url('../images/backgroundFull.png')  right 80% no-repeat;
     background-size: 900px;
     height: 100vh;
   }
@@ -325,7 +322,7 @@ body {
     max-width: 750px;
   }
 
-  #welcome-about h2{
+  #welcome-about h2 {
     font-size: 3rem;
     font-weight: 900;
   }
@@ -355,7 +352,7 @@ body {
   }
 }
 
-@media screen and (min-width: 850px){
+@media screen and (min-width: 850px) {
   #btn-header {
     margin-right: 105px;
   }
@@ -363,4 +360,4 @@ body {
   #top-header ul {
     margin-right: 105px;
   }
-} 
+}
