@@ -203,11 +203,11 @@ body {
   font-size: 14px;
 }
 
-#partners-section {
+.partners-section {
   background-color: #414246;
 }
 
-#partners-section > * {
+.partners-section > * {
   color: #8d8d8d;
   font-size: 35px;
 }
