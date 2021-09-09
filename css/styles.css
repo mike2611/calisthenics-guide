@@ -25,7 +25,7 @@ body {
 
 #welcome-section {
   background:  #f8f8f8 url('../images/background.png')  right 50% no-repeat;
-  background-size: 200px;
+  background-size: 250px;
 }
 
 #welcome-section h1 {
@@ -256,21 +256,29 @@ body {
 
   #welcome-section {
     justify-content: center;
+    background:  #f8f8f8 url('../images/backgroundFull.png')  right 50% no-repeat;
+    background-size: 1000px;
+    min-height: 100vh;
+  }
+
+  #welcome-section h1 {
+    font-size: 2rem;
   }
 
   #welcome-info {
     width: 65%;
-    max-width: 550px;
+    max-width: 750px;
   }
 
   #welcome-info h2 {
-    font-size: 3.1rem;
+    font-size: 4rem;
+    font-weight: 900;
   }
 
   #definition-info {
     font-size: .9rem;
     width: 75%;
-    max-width: 550px;
+    max-width: 600px;
   }
 
   .program-cards {
