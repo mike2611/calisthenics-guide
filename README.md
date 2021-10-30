@@ -1,3 +1,5 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
 # Calisthenics Expo
 
 >  This project is a page for a no existing calisthenics expo. The design authorship is from Cindy Shin.
@@ -44,4 +46,8 @@ Contributions, issues, and feature requests are welcome!
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- [Microverse](https://www.microverse.org/)
 
