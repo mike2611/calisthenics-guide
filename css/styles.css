@@ -236,6 +236,19 @@ body {
   font-size: 35px;
 }
 
+.logos-partners-container a{
+  text-decoration: none;
+}
+
+
+.logos-partners {
+  color: gray;
+}
+
+.logos-partners:hover {
+  color: white;
+}
+
 #footer-info {
   font-size: 14px;
 }
