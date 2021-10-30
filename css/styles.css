@@ -96,10 +96,14 @@ body {
   font-size: 18px;
 }
 
+.program-title {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
 .program-cards p {
   color: white;
   font-size: 14px;
-  width: 200px;
   height: 70px;
   margin: 0;
 }
@@ -244,6 +248,10 @@ body {
 #footer-about {
   background-color: #edefee;
   color: #2e2e2e;
+}
+
+#footer-info p {
+  font-size: 0.6rem;
 }
 
 .half-border {
