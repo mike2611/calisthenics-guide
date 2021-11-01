@@ -49,5 +49,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- [Cindy Shin](https://www.behance.net/adagio07)
 - [Microverse](https://www.microverse.org/)
 
